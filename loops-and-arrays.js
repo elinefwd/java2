@@ -5,6 +5,13 @@
 // ==========================================
 
 const names = ["Henk", "Piet", "Fred", "Joop"];
+{ names = names + ''je''}
+console.log(names);
+
+
+
+
+
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
@@ -23,6 +30,19 @@ const names = ["Henk", "Piet", "Fred", "Joop"];
 // ==========================================
 
 const numbers = [2, 4, 5, 29, 38];
+
+
+
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers [i] % 2 === 0)
+    {numbers[i] = numbers[i] * 2}
+    if (numbers[i] % 2 !== 0)
+    {numbers[i] = numbers[i] * 3}
+}
+console.log(numbers);
+
+
+
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:

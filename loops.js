@@ -1,5 +1,18 @@
-// ==========================================
-// Opdracht 1. Maak een for loop die het volgende patroon in de terminal print:
+//ik heb de logica nog niet echt gevonden om zelf die scripts te schrijven dus de opdrachten die in
+//de huiswerkles behandelt zijn lukten wel maar die ik zelf moest uitzoeken niet echt ik hoop aan de
+// hand van de uitwerkingen de logica te begrijpen of misschien heb je nog tips of websites voor me
+//thanks
+
+
+
+
+    for (let i = 0  ; i < 6; i++){
+        console.log(''*'')
+
+
+    }
+
+
 // Verwachte uitkomsten:
 // *
 // **
@@ -18,6 +31,13 @@
 // ==========================================
 // Opdracht 2. Maak een for-loop die 4 keer het woord "loop..." logt, en bij de laatste (vijfde) loop het woord "klaar!"
 // Verwachte uitkomsten:
+
+
+
+for (let i = 0; i < 4; i++) {
+    console.log("loop...");
+}
+
 // loop...
 // loop...
 // loop...
@@ -33,6 +53,12 @@
 // Opdracht 3: maak een for-loop die van 0 tot 9 loopt en de getallen 0 tot 9 logt.
 // Echter, vanaf het getal 3 komt er een > voor ieder getal te staan, en vanaf het getal 6 komt er >> voor ieder getal te staan.
 // Verwachte uitkomsten:
+
+ for (let i = 0; i < 10; i++) {
+     console.log (i)
+
+ }
+
 // 0
 // 1
 // 2
