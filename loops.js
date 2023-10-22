@@ -4,14 +4,11 @@
 //thanks
 
 
-
-
     for (let i = 0  ; i < 6; i++){
         console.log(''*'')
 
 
     }
-
 
 // Verwachte uitkomsten:
 // *
@@ -33,10 +30,10 @@
 // Verwachte uitkomsten:
 
 
-
 for (let i = 0; i < 4; i++) {
     console.log("loop...");
 }
+
 
 // loop...
 // loop...
@@ -44,7 +41,6 @@ for (let i = 0; i < 4; i++) {
 // loop...
 // klaar!
 // ==========================================
-
 
 
 
@@ -70,8 +66,6 @@ for (let i = 0; i < 4; i++) {
 // >> 8
 // >> 9
 // ==========================================
-
-
 
 
 

@@ -5,7 +5,7 @@
 // ==========================================
 
 const names = ["Henk", "Piet", "Fred", "Joop"];
-{ names = names + ''je''}
+
 console.log(names);
 
 
@@ -52,8 +52,6 @@ console.log(numbers);
 
 
 
-
-
 // ==========================================
 // Opdracht 3
 // Schrijf een script dat voor de maat van ieder vierkant in onderstaande array, het volume uitrekent.
@@ -76,6 +74,4 @@ const squares = [30, 2, 8, 24, 11];
 //   'Het volume van 24 is 13824',
 //   'Het volume van 11 is 1331'
 // ]
-
-
 
